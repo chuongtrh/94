@@ -54,6 +54,8 @@ class BeerListViewController: BaseViewController {
                     weakSelf?.isLoadMore = beers.count > 0
                     weakSelf?.beers += beers
                     weakSelf?.tableView?.reloadData()
+            }else{
+                weakSelf?.showAlert(title: "Oop!", message: (error?.localizedDescription)!)
             }
         }
     }

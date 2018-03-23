@@ -28,8 +28,7 @@ class BaseViewController: UIViewController {
     func showHUD() {
         if(hudView == nil){
             hudView = UIView(frame: self.view.bounds)
-            hudView.backgroundColor = UIColor.black
-            hudView.alpha = 0.8
+            hudView.backgroundColor = UIColor.lightGray
         }
         self.view.addSubview(hudView)
     }

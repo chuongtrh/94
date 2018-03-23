@@ -29,6 +29,7 @@
 		4C273DB120655B3C007EEFA0 /* HopsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C273DB020655B3C007EEFA0 /* HopsModel.swift */; };
 		4C273DB320655C00007EEFA0 /* IngredientModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C273DB220655C00007EEFA0 /* IngredientModel.swift */; };
 		4C273DB52065675D007EEFA0 /* NSAttributedString +Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C273DB42065675D007EEFA0 /* NSAttributedString +Extensions.swift */; };
+		4C273DB720657736007EEFA0 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C273DB620657736007EEFA0 /* UIViewController+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		4C273DB020655B3C007EEFA0 /* HopsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HopsModel.swift; sourceTree = "<group>"; };
 		4C273DB220655C00007EEFA0 /* IngredientModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientModel.swift; sourceTree = "<group>"; };
 		4C273DB42065675D007EEFA0 /* NSAttributedString +Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString +Extensions.swift"; sourceTree = "<group>"; };
+		4C273DB620657736007EEFA0 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		5D392CBA00BCD3348D35D972 /* Pods_test_94.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_94.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		922DD2E1B1A9CCFFB6A2CC60 /* Pods-test_94.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_94.release.xcconfig"; path = "Pods/Target Support Files/Pods-test_94/Pods-test_94.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -186,6 +188,7 @@
 			children = (
 				4C273DA520651D6B007EEFA0 /* Date+Extensions.swift */,
 				4C273DB42065675D007EEFA0 /* NSAttributedString +Extensions.swift */,
+				4C273DB620657736007EEFA0 /* UIViewController+Extensions.swift */,
 			);
 			path = extensions;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 				4C273DA9206530B5007EEFA0 /* AppConstant.swift in Sources */,
 				4C273DB52065675D007EEFA0 /* NSAttributedString +Extensions.swift in Sources */,
 				4C273DAB20653D2F007EEFA0 /* Utilities.swift in Sources */,
+				4C273DB720657736007EEFA0 /* UIViewController+Extensions.swift in Sources */,
 				4C273DB320655C00007EEFA0 /* IngredientModel.swift in Sources */,
 				4C273DB120655B3C007EEFA0 /* HopsModel.swift in Sources */,
 				4C273DA320650116007EEFA0 /* BaseViewController.swift in Sources */,

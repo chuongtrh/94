@@ -46,6 +46,8 @@ class BeerDetailViewController: BaseViewController {
                 weakSelf?.dismissHUD()
                 if(error == nil){
                     weakSelf?.updateUI(beer: beer!)
+                }else{
+                    weakSelf?.showAlert(title: "Oop!", message: (error?.localizedDescription)!)
                 }
             }
         }
